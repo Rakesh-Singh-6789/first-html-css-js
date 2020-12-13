@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.upper-div {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#fdcbf1), color-stop(1%, #fdcbf1), to(#e6dee9));
+  background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+}
+
+.nav-list {
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 0px;
+  list-style: none;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.home,
+.about {
+  height: 90vh;
+  position: absolute;
+  width: 100%;
+}
+
+.button {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#a18cd1), to(#fbc2eb));
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  -webkit-text-emphasis-color: black;
+          text-emphasis-color: black;
+  color: black;
+}
+
+.home-content,
+.about-content {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home-content img,
+.about-content img {
+  height: 70%;
+}
+
+.home-content h1,
+.about-content h1 {
+  font-size: 50px;
+  margin: 30px 0px;
+}
+
+.home-content p,
+.about-content p {
+  font-size: 20px;
+}
+
+.home {
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+
+.about {
+  background-image: -webkit-gradient(linear, left top, right top, from(#ff8177), color-stop(0%, #ff867a), color-stop(21%, #ff8c7f), color-stop(52%, #f99185), color-stop(78%, #cf556c), to(#b12a5b));
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+/*# sourceMappingURL=style.css.map */
